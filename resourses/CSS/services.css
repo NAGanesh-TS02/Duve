@@ -3,20 +3,65 @@
     padding: 0;
     font-family: sans-serif;
 }
-.title {
-    position: sticky;
-    z-index: 1;
-    top:18px;
+body{
     height: auto;
     width: 100%;
-    text-align: center;
-    margin-top: 20px;
+}
+header{
+    height: 100px;
+    position: sticky;
+    top:0px;
     background-color: rgb(22, 22, 22);
+    z-index: 1;
+}
+.logo{
+    padding-left: 24px;
+    padding-top: 12px;
+    display: inline;
+    font-size: 32px;
+    color:rgb(1, 222, 230);
+    vertical-align: middle;
+    float: left;
+}
+nav{
+    float: right;
+    padding-right: 24px;
+}
+nav ul{
+    display: flex;
+    vertical-align: middle;
+    font-size: 20px;
+    padding-top: 30px;
+     text-decoration: none;
+    list-style-type: none;
+}
+nav a{ 
+    text-decoration: none;
+    color: white;
+    margin-left: 16px;
+    transition-duration: 200ms;
+}
+nav a:hover{
+    color:rgb(1, 222, 230)
+}
+nav a.active{
+    color: rgb(1,222,230);
+}
+.title {
+    height: 60px;
+    position: sticky;
+    top: 100px;
+    z-index: 1;
+    left:25%;
+    width: 75%;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(1,222,230);
 }
 .title h1{
-    color: rgb(1, 222, 230);
+    color: rgb(22, 22, 22);
     font-size: 50px;
-    padding: 12px;
+    padding: 5px;
     font-weight: bold;
     vertical-align: middle;
     text-transform:uppercase ;
@@ -27,8 +72,9 @@
     top: 100px;
     width: 25%;
     height: 100%;
-    background-color:rgb(22, 22, 22);
+    background-color:rgb(43, 43, 43);
     align-items: center;
+    vertical-align: middle;
 }
 ul{
     list-style: none;
@@ -44,22 +90,63 @@ ul{
     color: rgb(1, 222, 230);
     text-decoration: none;
     font-size: 24px;
-        transition-duration: 200ms;
+    transition-duration: 200ms;
 }
 .vert-navbar a:hover{
     color: rgb(243, 243, 243);
 }
+.vert-navbar .ref-cu{
+    align-self: center;
+    padding: 5%;
+    background-color:rgb(1, 222, 230);
+    color: rgb(243, 243, 243);
+    border-radius: 15px;
+}
+.vert-navbar .ref-cu:hover{
+    color:rgb(22, 22, 22);
+    font-weight: bold;
+}
 .services{
     position: relative;
     left:25%;
-    top:50%;
     width: 75%;
 }
 .section{
+    position: relative;
     height: 100vh;
-    
+    padding-block: 70px;
 }
-.section h2{
+.section .bg-image{
+    width: 100%;
+    height: 100%;
+
+}
+.section img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+.section .text{
+    position: absolute;
+    top: 250px;
     text-align: center;
-    font-size: 35px;
+}
+.section .text h2{
+    margin-bottom: 16px;
+    font-size: 30px;
+    font-weight: bold ;
+    color: rgb(1, 222, 230);
+}
+.section .text p{
+    padding-inline: 150px;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+footer{
+    position: relative;
+    left: 25%;
+    width: 75%;
+    margin: 20px, 30px, 10px, 30px;
+    height: 15%;
 }

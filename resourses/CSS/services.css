@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.title {
+    position: sticky;
+    z-index: 1;
+    top:18px;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(22, 22, 22);
+}
+.title h1{
+    color: rgb(1, 222, 230);
+    font-size: 50px;
+    padding: 12px;
+    font-weight: bold;
+    vertical-align: middle;
+    text-transform:uppercase ;
+}
+.vert-navbar{
+    position: fixed;
+    left: 0;
+    top: 100px;
+    width: 25%;
+    height: 100%;
+    background-color:rgb(22, 22, 22);
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+.vert-navbar ul li{
+    margin: 8px;
+    padding: 10px;
+    margin-top: 50px;
+
+    text-align: center;
+}
+.vert-navbar a{
+    color: rgb(1, 222, 230);
+    text-decoration: none;
+    font-size: 24px;
+        transition-duration: 200ms;
+}
+.vert-navbar a:hover{
+    color: rgb(243, 243, 243);
+}
+.services{
+    position: relative;
+    left:25%;
+    top:50%;
+    width: 75%;
+}
+.section{
+    height: 100vh;
+    
+}
+.section h2{
+    text-align: center;
+    font-size: 35px;
+}

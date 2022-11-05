@@ -34,9 +34,32 @@
     align-items: left;
     margin-top: 30px;
  }
- .container .content .card .cardbody{
+ .container .content .card .cardbody {
     width: 50%;
     display: flex;
     flex-direction: column;
+ }
+ .Contactform {
+    width: 40%;
+    padding: 20px;
+    background: cyan;
+ }
+ .Contactform h2 {
+    font-size: 30px;
+    font-weight: 500;
+ }
+ .Contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+ }
+ .Contactform .inputbox input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: nb;
  }
 

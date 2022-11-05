@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('drone-1.gif');
+    background-repeat: no-repeat;
+    background-size: 1400px 340px;
+  }
+  
+  .topnav {
+    
+  }
+  
+  .topnav a {
+    float: Right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #34c57d;
+    color: white;
+  }
+
+  .topnav, .h1{
+    color: white;
+    font-weight: 1000;
+    font-style: italic, bold;
+  }
+
+  #tracker{
+    margin-left: 42%;
+    border-radius: 5%;
+  }
+
+  button{
+    background-color:black;
+    color: white;
+  }
+
+  .row{
+    margin: 0%;
+    background-color: rgb(17, 66, 85);
+  }
+
+  .row h1{
+    padding: 0% 20% 0% 15%; 
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .row img{
+    padding: 2% 0% 0% 20%;
+  }
+
+  td{
+    width: 50%;
+    
+  }
+  td.first{
+    padding: 2% 0% 2% 8%;
+  
+
+  }
+
+  td.second{
+    padding: 2% 0% 2% 5%;
+    background-color: black;
+    text-align: center;
+    color: White;
+  }
+
+  h1.duve {
+    width: 110px;
+    height: 50px;
+    padding-left: 5%;
+    border-radius: 20px;
+    background-color: black;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 4;
+  }
+  
+  @keyframes example{
+    0%   {background-color:greenyellow;}
+    25%  {background-color:darkmagenta;} 
+    50%  {background-color:brown;} 
+    100% {background-color:yellow; }
+
+  }
+
+
+
+
+ 
+  

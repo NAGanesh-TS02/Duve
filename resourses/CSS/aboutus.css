@@ -1,0 +1,41 @@
+.top{
+     height: 100px;
+     position: sticky;
+     padding-right:12px;
+     top:0px;
+     background-color: rgb(22, 22, 22);
+     z-index: 1;
+ }
+ .logo{
+     padding-left: 24px;
+     padding-top: 12px;
+     display: inline;
+     font-size: 32px;
+     color:rgb(1, 222, 230);
+     vertical-align: middle;
+     float: left;
+ }
+ nav{
+     float: right;
+     padding-right: 24px;
+ }
+ nav ul{
+     display: flex;
+     vertical-align: middle;
+     font-size: 20px;
+     padding-top: 30px;
+      text-decoration: none;
+     list-style-type: none;
+ }
+ nav a{ 
+     text-decoration: none;
+     color: white;
+     margin-left: 16px;
+     transition-duration: 200ms;
+ }
+ nav a:hover{
+     color:rgb(1, 222, 230)
+ }
+ nav a.active{
+     color: rgb(1,222,230);
+ }
